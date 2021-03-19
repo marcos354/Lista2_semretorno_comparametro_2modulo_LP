@@ -1,0 +1,8 @@
+def subtrair(numero1, numero2):
+  sub = numero1 - numero2
+  print("O resultado da subtração de ",numero1, "-", numero2, "é igual a ", sub)
+def main():
+  n1 = int(input("Digite o primeiro número: "))
+  n2 = int(input("Digite o segundo número: "))
+  subtrair(n1, n2)
+main()
