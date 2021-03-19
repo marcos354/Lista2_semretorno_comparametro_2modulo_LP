@@ -1,0 +1,13 @@
+def media(p1, p2):
+  med = (p1 + p2) / 2
+  print('A média do aluno é ', med)
+def verificar(med):
+  if med > 6:
+    print("Aprovado!!!!")
+def main():
+  n1 = int(input("Informe a nota da P1: "))
+  n2 = int(input('Informe a nota da P2: '))
+  m = (n1 + n2 )/2
+  media(n1, n2)
+  verificar(m)
+main()
