@@ -1,0 +1,7 @@
+def multiplicar(numero):
+  r = numero * 2
+  print("A multiplicação de ", numero, "* 2 = ",r)
+def main():
+  n=int(input("Informe um valor: "))
+  multiplicar(n)
+main()
