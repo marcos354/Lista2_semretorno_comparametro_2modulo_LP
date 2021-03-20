@@ -1,0 +1,11 @@
+def tabuada(n):
+  cont = 1
+  while (cont < 11):
+    tab = n * cont
+    print()
+    print(n, 'x', cont, '= ', tab)
+    cont += 1
+def main():
+  numero = int (input('Deseja ver a tabuada de: '))
+  tabuada(numero)
+main()
