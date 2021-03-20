@@ -1,0 +1,10 @@
+def a(letra):
+  total_de_a = 0
+  for letras in range(len(s)):
+    if(s[letras: letras+1] == "a"):
+        total_de_a += 1
+  print(total_de_a)
+def main():
+  texto = str(input("Digite um texto: "))
+  a(texto)
+main()
