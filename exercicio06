@@ -1,0 +1,17 @@
+def acumular(a,b):
+    soma = 0
+    while (a > 0 and b > 0) and a <= b:
+        soma = soma + a
+        a = a + 1
+    print('O resultado é', soma)
+    acumuladora = 0
+    if (a > 0 and b > 0) and a <= b:
+        for A in range(a,b+1):
+            acumuladora = acumuladora + A
+    
+def main():
+    n1 = int(input('Informe um valor: '))
+    n2 = int(input('Informe outro valor: '))
+    acumular(n1,n2)
+
+main()
