@@ -1,0 +1,11 @@
+def numero():
+  n = int(input("Informe um valor: "))
+def parImpar(n):
+  if (n%2) == 0:
+    print("O número",n, "é par")
+  else:
+    print("O número",n, "é impar")
+def main():
+  numero = int(input("Digite um numero: "))
+  parImpar(numero)
+main()
