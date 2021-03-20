@@ -1,0 +1,9 @@
+def vf(n):
+  if n == "Ana":
+    print(True)
+  else:
+    print(False)
+def main():
+  nome = str(input("Digite um nome: "))
+  vf(nome)
+main()
