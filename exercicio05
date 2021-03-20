@@ -1,0 +1,8 @@
+def reajuste(preco, porcento):
+  valorReajuste = preco + (preco * (porcento/100))
+  print("O valor {:.2f} do produto com reajuste de {:.2f}% é igual {:.2f}".format(preco, porcento, valorReajuste))
+def main():
+  valor = float(input("Digite o valor do produto: "))
+  porcentagem = float(input("Digite quantos porcentos: "))
+  reajuste(valor,porcentagem)
+main()
